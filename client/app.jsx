@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -9,11 +7,13 @@ class App extends React.Component {
         this.state = {
         }
     }
-   
+
     render() {
         return (
             <div>
-               hello
+                <div class="row" data-x="0" data-y="0" />
+                <div class="row" data-x="1" data-y="0" />
+                <div class="row" data-x="2" data-y="0" />
             </div>
         )
     }
