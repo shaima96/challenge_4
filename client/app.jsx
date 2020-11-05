@@ -7,13 +7,65 @@ class App extends React.Component {
         this.state = {
         }
     }
-
     render() {
         return (
-            <div>
-                <div class="row" data-x="0" data-y="0" />
-                <div class="row" data-x="1" data-y="0" />
-                <div class="row" data-x="2" data-y="0" />
+            <div className="board">
+                <div id="1">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="2">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="3">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="4">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="5">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="6">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
+                <div id="7">
+                    <Square x={0} y={1} />
+                    <Square x={1} y={2} />
+                    <Square x={2} y={3} />
+                    <Square x={3} y={4} />
+                    <Square x={4} y={5} />
+                    <Square x={5} y={6} />
+                </div>
             </div>
         )
     }

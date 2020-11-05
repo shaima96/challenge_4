@@ -9,8 +9,6 @@ app.use(express.json())
 
 
 
-
-
 app.get("/app", (req, res) => {
     res.sendFile(__dirname + '/./client/dist/')
 })
